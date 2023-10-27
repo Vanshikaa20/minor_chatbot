@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* Add your custom CSS styles here */
+
+:root {
+    --font1: 'Lato', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #f5c000;
+}
+
+ul li a {
+    font-family: var(--font2);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h1 {
+    font-family: var(--font2);
+}
+#chatbot {
+    display: none;
+  }
+
+
+.chatbot {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.close-button {
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #f5c000;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #F0F0F0;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#message-input {
+    width: calc(100% - 22px);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f5c000;
+    color: white;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #f5c000;
+}
+/* .fluid-container{
+    background-color: cadetblue !important;
+} */

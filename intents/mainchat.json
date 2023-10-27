@@ -1,0 +1,61 @@
+
+{
+  "intents": [
+    {
+      "tag": "General Information",
+      "patterns": ["What courses does the department offer?"],
+      "responses": ["The department offers a diverse range of courses including Introduction to Computer Science, Data Structures and Algorithms, Software Engineering, Analysis and Design Of Algorithm, Theory of Computation , and Cybersecurity, among others."]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["Who are the faculty members in the department?"],
+      "responses": ["Some of our esteemed faculty members include Dr. Jagdish Makhijani , an expert in ___________ and natural _______ , prof. Yograj Sharma , specializing in cybersecurity and network protocols,  Prof. Vivek Gupta, specializing in Web Development, Prof. Kirtiraj Bhatele , an expert in ..... "]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["What are the upcoming events or seminars organized by the department?"],
+      "responses": ["We have an exciting lineup of events which will be enclosed prior one week as they are going to held,  Please check our official Rjit website for detailed event schedules and registration information.. "]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["What are the major strengths of the computer science program compared to similar programs in other colleges?"],
+      "responses": ["The program integrates theory with practical applications, emphasizing critical thinking, problem-solving, and creativity. The faculty, facilities, and industry connections offer unique professional development opportunities for students."]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["How does the computer science department contribute to the overall academic mission of the college?"],
+      "responses": ["The department fosters innovation, interdisciplinary collaboration, and research-driven learning, preparing students for real-world challenges and technological advancements."]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["Could you provide a brief history of the computer science department at the college?"],
+      "responses": ["The computer science department was established in [year of establishment] with the mission to provide comprehensive education in computing and technology. Over the years, it has evolved into a dynamic hub of innovation, fostering a culture of excellence in research, education, and industry partnerships."]
+    },
+    {
+      "tag": "General Information",
+      "patterns": ["What are some notable achievements of the department in the last five years?"],
+      "responses": [""]
+    },
+    {
+      "tag": "Admission and Enrollment ",
+      "patterns": ["What are the admission requirements for the computer science program?", 
+      "Can you explain the admissions procedure?",
+      "Tell me about the admission process.",
+      "What are the steps to get into your college?"],
+      "responses": ["The admissions procedure typically involves several steps: application submission, document submission, evaluation, and notification of acceptance or rejection.It's important to refer to our official admissions website for detailed instructions."]
+    },
+    {
+      "tag": "Admission and Enrollment",
+      "patterns": ["How can I apply for the computer science program?",    
+         "How do I apply for admission?"   ],
+      "responses": [ "You can apply for admission by visiting our official admissions website and following the online application instructions. Create an account, complete the application form, and submit all required documents."]
+    },
+    {
+      "tag": "Admission and Enrollment",
+      "patterns": [  "What's the admission criteria?","What are the prerequisites for specific computer science courses?"  ],
+      "responses": [      "Admission criteria  includes factors like academic performance, standardized test scores(jee mains/jee advance), recommendation letters. Refer to our website for specific criteria." ]
+    }
+  
+  ]
+}
+

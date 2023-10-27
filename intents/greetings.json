@@ -1,0 +1,10 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Hi there"],
+        "responses": ["Hi there, I am Rjit chatbot!  How can I help you today?", "Hello , Myself Rjit chatbot! How can I assist you?", "Hey,I am Rjit chatbot! How are you doing?"]
+      }
+    ]
+  }
+  
