@@ -26,75 +26,112 @@ ul li a {
 h1 {
     font-family: var(--font2);
 }
-#chatbot {
-    display: none;
-  }
+h4{
+    font-family: var(--font2);
+    margin: 0px 30px;
+    color: white;
+    
+}
+nav{
+    background-color: rgb(12, 12, 65,1);
+    
+}
+.p-3 {
+    padding: 0.5rem!important;
+}
 
+
+
+h3{
+    background-color:  rgb(12, 12, 65,1);
+    color: #ddd;
+    font-size: 1.8rem;
+    text-align: center;
+}
 
 .chatbot {
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 50px;
+    right: 250px;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    max-width: 800px;
+   width: 30%;
+   height: 70vh;
 }
 
-.close-button {
-    align-self: flex-end;
-    cursor: pointer;
-}
 
 .chat-container {
     display: flex;
     flex-direction: column;
-    max-height: 200px;
+    max-height: auto;
     overflow-y: auto;
+    max-width: auto;
 }
 
 .user-message {
     align-self: flex-end;
-    background-color: #f5c000;
+    background-color: rgb(188, 188, 212);
     color: black;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+    margin-top: 8px;
 }
+
 
 .bot-message {
     align-self: flex-start;
-    background-color: #F0F0F0;
+    background-color: rgb(222, 222, 231);
     color: black;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+    margin-top: 8px;
 }
-
-#message-input {
-    width: calc(100% - 22px);
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-#send-button {
+.chat-container-questions {
+    /* position: fixed; */
+    bottom: 20px;
     width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    background-color: #f5c000;
-    color: white;
+    text-align: center;
+}
+
+.question-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    /* background-color: #4CAF50; */
+    color: blue;
+    border: 2px solid  rgb(12, 12, 65,1);
+    border-radius: 4px;
     cursor: pointer;
 }
 
-#send-button:hover {
-    background-color: #f5c000;
+#prompt{
+    background-color: rgb(12, 12, 65,1);
+    color: #ddd ;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    width: 70%;
+
 }
+.responsebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .question-button:hover {
+    background-color: #45a049;
+}  */
+
+
 /* .fluid-container{
     background-color: cadetblue !important;
 } */

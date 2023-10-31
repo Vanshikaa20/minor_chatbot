@@ -1,5 +1,5 @@
 
-let chatbotOpen = false;  //use to state that chatbot will not open when page load
+// let chatbotOpen = true;  //use to state that chatbot will not open when page load
 const chatIcon = document.getElementById('chat-icon'); //get the element with id chat-icon
 
 
@@ -7,35 +7,35 @@ const chatIcon = document.getElementById('chat-icon'); //get the element with id
 // If the element with the ID 'chatbot' is found, it sets its CSS display property to 'block', and it sets the chatbotOpen variable to true. If the element is not found, it logs an error.
 // Similarly, if the chatIcon is found, it sets its CSS display property to 'none' to hide it. If the chatIcon is not found, it logs an error.
 
-function openChat() {
-    const chatbot = document.getElementById('chatbot');
-    if (chatbot) {
-        chatbot.style.display = 'block';
-        chatbotOpen = true;
-    } else {
-        console.error('Chatbot element not found');
-    }
+// function openChat() {
+//     const chatbot = document.getElementById('chatbot');
+//     if (chatbot) {
+//         chatbot.style.display = 'block';
+//         chatbotOpen = true;
+//     } else {
+//         console.error('Chatbot element not found');
+//     }
 
-    const chatIcon = document.getElementById('chat-icon');
-    if (chatIcon) {
-        chatIcon.style.display = 'none';
-    } else {
-        console.error('Chat icon element not found');
-    }
-}
+//     const chatIcon = document.getElementById('chat-icon');
+//     if (chatIcon) {
+//         chatIcon.style.display = 'none';
+//     } else {
+//         console.error('Chat icon element not found');
+//     }
+// }
 
-function closeChat() {
-    const chatbot = document.getElementById('chatbot');
-    chatbot.style.display = 'none';
-    chatbotOpen = false;
+// function closeChat() {
+//     const chatbot = document.getElementById('chatbot');
+//     chatbot.style.display = 'none';
+//     chatbotOpen = false;
     
-    const chatIcon = document.getElementById('chat-icon');
-    if (chatIcon) {
-        chatIcon.style.display = 'block';
-    } else {
-        console.error('Chat icon element not found');
-    }
-}
+//     const chatIcon = document.getElementById('chat-icon');
+//     if (chatIcon) {
+//         chatIcon.style.display = 'block';
+//     } else {
+//         console.error('Chat icon element not found');
+//     }
+// }
 
 
 
@@ -59,6 +59,8 @@ function closeChat() {
     
     
       function sendMessage(btnVal = '', event) {
+        var prompt = document.getElementById('prompt');
+        prompt.style.display = 'none';
         var messageInput = '';
         if (btnVal == ''){
                 messageInput = document.getElementById('message-input').value;

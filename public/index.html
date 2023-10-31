@@ -13,85 +13,56 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
-        <img src="./images/chatbot-logo.jpeg" alt="" width="50px">
+    <nav class="navbar navbar-expand-lg navbar-light  shadow p-3 mb-5  rounded">
+        <img src="./images/chatbot-logo.jpeg" alt="" width="8%">
+        <h4>
+            Rjit Chatbot
+        </h4>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto mx-4">
-                <li class="nav-item active">
-                    <a class="nav-link mx-3 " href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link mx-3 " href="about.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-
-            </ul>
-            <form class="form-inline my-2 my-lg-0 ">
-
-                <button type="button" class="btn btn-dark btn-lg mx-4">Login</button>
-                <button type="button" class="btn btn-dark btn-lg">Signup</button>
-
-            </form>
-        </div>
     </nav>
 
     <div class="fluid-container">
-        <!-- <img src="./home-background-left.png" alt="" width="20%"> -->
         <div class="row">
-            <div class="col-4  d-flex">
+            <div class="col-4 d-flex">
                 <img src="./images/chatbot-image1.jpg" alt="" width="100%">
             </div>
 
-            <div class="col-8 text-center my-5 d-flex">
-                <div class="textcontainer">
-                    <h1>RJIT <span>CHATBOT</span></h1>
-                    <h5><i>Explore the world of computer science and engineering with our interactive assistance."</i>
-                    </h5><br><br>
-                    <!-- <h5 >"Welcome to the CSE Department Chatbot! Get instant access to information about our department's programs, faculty, research, and more. </h5> -->
-                    <button onclick="location.href='about.html'">Know More</button>
-                </div>
-                <img src="./images/home-background-right.png" alt="" width="20%">
-
-
-
-            </div>
         </div>
-        <div class="chat-icon float-right" id="chat-icon" onclick="openChat()">
-            <button type="button" class="btn btn-dark btn-lg">Start Chatbot</button>
-        </div>
-
     </div>
-
     <div class="chatbot" id="chatbot">
-        <div class="close-button" onclick="closeChat()">X</div>
-        <h3> RJIT Chatbot</h3>
+        <h3> Hi there!</h3>
         <div class="chat-container" id="chat-container">
             <div class="bot-message">Hi! How can I help you today?</div>
         </div>
-        <div class="chat-container-questions" id="chat-container"></div>
-            <button class ="question-button" id="btn-1" onclick="sendMessage('What courses does the department offer?', event)">What courses does the department offer?</button>
-            <button class ="question-button" id="btn-2" onclick="sendMessage('Who are the faculty members in the department?', event)">Who are the faculty members in the department?</button>
-            <button class ="question-button" id="btn-3" onclick="sendMessage('What are the upcoming events or seminars organized by the department?', event)">What are the upcoming events or seminars organized by the department?</button>
+        <div class="chat-container-questions" id="chat-container">
+            <button class="question-button" id="btn-1"
+                onclick="sendMessage('What courses does the department offer?', event)">What courses does the department
+                offer?</button>
+            <button class="question-button" id="btn-2"
+                onclick="sendMessage('Who are the faculty members in the department?', event)">Who are the faculty
+                members in the department?</button>
+            <button class="question-button" id="btn-3"
+                onclick="sendMessage('What are the upcoming events or seminars organized by the department?', event)">What
+                are the upcoming events or seminars organized by the department?</button>
+        </div>
+        <div class="responsebutton">
 
-        <!-- <input type="text" id="message-input" placeholder="Type your message here" />
-        <button id="send-button" onclick="sendMessage()">Send</button> -->
+            <h6 id="prompt">Hit buttons to response!</h6>
+        </div>
     </div>
 
 
-  
 
 
 
 
- 
+
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
