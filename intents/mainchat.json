@@ -2,58 +2,152 @@
 {
   "intents": [
     {
-      "tag": "General Information",
+      "tag": "about",
+      "patterns": ["Brief about computer science and engineering department"],
+      "responses": [""]
+    },
+    
+    {
+      "tag": "courses",
       "patterns": ["What courses does the department offer?"],
-      "responses": ["The department offers a diverse range of courses including Introduction to Computer Science, Data Structures and Algorithms, Software Engineering, Analysis and Design Of Algorithm, Theory of Computation , and Cybersecurity, among others."]
+      "responses": [""]
     },
     {
-      "tag": "General Information",
+      "tag": "faculty",
       "patterns": ["Who are the faculty members in the department?"],
-      "responses": ["Some of our esteemed faculty members include Dr. Jagdish Makhijani , an expert in ___________ and natural _______ , prof. Yograj Sharma , specializing in cybersecurity and network protocols,  Prof. Vivek Gupta, specializing in Web Development, Prof. Kirtiraj Bhatele , an expert in ..... "]
+      "responses": [""]
     },
     {
-      "tag": "General Information",
+      "tag": " about faculty",
+      "patterns": ["What are the research interests or areas of expertise of the faculty in the computer science department?"],
+      "responses": [""]
+    },
+    {
+      "tag": " about faculty",
+      "patterns": ["How accessible are the faculty members for students outside of class hours?"],
+      "responses": [""]
+    },
+    {
+      "tag": "events",
       "patterns": ["What are the upcoming events or seminars organized by the department?"],
-      "responses": ["We have an exciting lineup of events which will be enclosed prior one week as they are going to held,  Please check our official Rjit website for detailed event schedules and registration information.. "]
+      "responses": [""]
     },
     {
-      "tag": "General Information",
-      "patterns": ["What are the major strengths of the computer science program compared to similar programs in other colleges?"],
-      "responses": ["The program integrates theory with practical applications, emphasizing critical thinking, problem-solving, and creativity. The faculty, facilities, and industry connections offer unique professional development opportunities for students."]
+      "tag": "highlights",
+      "patterns": ["What are the key highlights of the CSE?"],
+      "responses": [""]
     },
     {
-      "tag": "General Information",
-      "patterns": ["How does the computer science department contribute to the overall academic mission of the college?"],
+      "tag": "contribute",
+      "patterns": ["How does the CSE contribute to the overall academic mission of the college?"],
       "responses": ["The department fosters innovation, interdisciplinary collaboration, and research-driven learning, preparing students for real-world challenges and technological advancements."]
     },
     {
-      "tag": "General Information",
-      "patterns": ["Could you provide a brief history of the computer science department at the college?"],
-      "responses": ["The computer science department was established in [year of establishment] with the mission to provide comprehensive education in computing and technology. Over the years, it has evolved into a dynamic hub of innovation, fostering a culture of excellence in research, education, and industry partnerships."]
-    },
-    {
-      "tag": "General Information",
+      "tag": "achievements",
       "patterns": ["What are some notable achievements of the department in the last five years?"],
       "responses": [""]
     },
     {
-      "tag": "Admission and Enrollment ",
-      "patterns": ["What are the admission requirements for the computer science program?", 
-      "Can you explain the admissions procedure?",
-      "Tell me about the admission process.",
-      "What are the steps to get into your college?"],
-      "responses": ["The admissions procedure typically involves several steps: application submission, document submission, evaluation, and notification of acceptance or rejection.It's important to refer to our official admissions website for detailed instructions."]
+      "tag": "Admission procedure ",
+      "patterns": [ 
+      "Can you explain the admissions procedure?"],
+      "responses": [""]
     },
     {
-      "tag": "Admission and Enrollment",
-      "patterns": ["How can I apply for the computer science program?",    
+      "tag": "apply admission",
+      "patterns": [   
          "How do I apply for admission?"   ],
-      "responses": [ "You can apply for admission by visiting our official admissions website and following the online application instructions. Create an account, complete the application form, and submit all required documents."]
+      "responses": [ ""]
     },
     {
-      "tag": "Admission and Enrollment",
-      "patterns": [  "What's the admission criteria?","What are the prerequisites for specific computer science courses?"  ],
-      "responses": [      "Admission criteria  includes factors like academic performance, standardized test scores(jee mains/jee advance), recommendation letters. Refer to our website for specific criteria." ]
+      "tag": "admission criteria",
+      "patterns": [  "What's the admission criteria?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [  "What resources are available to students in CSE?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "curriculum",
+      "patterns": [  "Can you provide information about the CSE curriculum?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "carrer prospects",
+      "patterns": [  "What are the career prospects for computer science graduates from your college" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "faculty ration",
+      "patterns": [  "What is the student-to-faculty ratio in the CSE?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "class size ",
+      "patterns": [  "What is the average class size for computer science courses at your college?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "overall ranking ",
+      "patterns": [  "What is the overall ranking or reputation of the computer science department at your college?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "seats",
+      "patterns": [  "What is the total number of seats available in the computer science program?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "entrance exam",
+      "patterns": [  "Are there any specific entrance exams required for admission to the computer science program?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "selection process",
+      "patterns": [  "Can you share details about the selection process for the computer science department?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "campus tour",
+      "patterns": [  "How can I schedule a campus tour or visit to learn more about the computer science department?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "selection process",
+      "patterns": [  "Can you share details about the selection process for the computer science department?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "labs",
+      "patterns": [  "How often are the computer science labs open for student use outside of class hours?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "participate",
+      "patterns": [  "Are there any opportunities for students to participate in coding competitions or hackathons as part of their coursework?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [  "Can you provide information about the core csubjects offered in the computer science program?" ],
+      "responses": [   "" ]
+    },
+    {
+      "tag": "specialization",
+      "patterns": [  "Are there any elective courses or specializations available within the computer science curriculum?" ],
+      "responses": [   "" ]
+    },
+    { 
+      "tag": "student feedback",
+      "patterns": [  "What is the student feedback on the course structure and content within the computer science department?" ],
+      "responses": [   "" ]
+    },
+    { 
+      "tag": "workshops",
+      "patterns": [  "Can you share details about any guest lectures or workshops organized by the computer science department to enhance students' practical skills?" ],
+      "responses": [   "" ]
     }
   
   ]
