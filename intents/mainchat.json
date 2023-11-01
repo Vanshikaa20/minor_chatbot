@@ -4,18 +4,19 @@
     {
       "tag": "about",
       "patterns": ["Brief about computer science and engineering department"],
-      "responses": [""]
+      "responses": ["The Computer Science department, a hub of innovation, delves into cutting-edge technologies, algorithms, and software development, fostering future tech leaders."]
     },
-    
+
     {
       "tag": "courses",
       "patterns": ["What courses does the department offer?"],
-      "responses": [""]
+      "responses": [" Our college's CSE department offers diverse undergraduate and graduate programs covering programming, algorithms, data structures, software engineering, artificial intelligence, and more."]
     },
     {
       "tag": "faculty",
       "patterns": ["Who are the faculty members in the department?"],
-      "responses": [""]
+      "responses": [ "Prof. Jagdish Makhijani,  Prof. Yograj Sharma,  Asst. Prof. Vivek Gupta,  Asst. Prof. Kirtiraj Bhatele, Lab. Inst. Sumit Rajak"
+      ]
     },
     {
       "tag": " about faculty",
@@ -25,17 +26,17 @@
     {
       "tag": " about faculty",
       "patterns": ["How accessible are the faculty members for students outside of class hours?"],
-      "responses": [""]
+      "responses": ["Faculty members are generally accessible outside of class hours through office hours, email communication, virtual meetings, and scheduled appointments."]
     },
     {
       "tag": "events",
       "patterns": ["What are the upcoming events or seminars organized by the department?"],
-      "responses": [""]
+      "responses": ["I don't have real-time access to current events or schedules. To find information about upcoming events or seminars organized by the department, you can: Check the department's website for announcements and event calendars."]
     },
     {
       "tag": "highlights",
       "patterns": ["What are the key highlights of the CSE?"],
-      "responses": [""]
+      "responses": ["The CSE department provides modern learning, top-notch facilities, knowledgeable teachers, research chances, industry connections, student support, and a diverse atmosphere."]
     },
     {
       "tag": "contribute",
@@ -49,25 +50,24 @@
     },
     {
       "tag": "Admission procedure ",
-      "patterns": [ 
-      "Can you explain the admissions procedure?"],
-      "responses": [""]
+      "patterns": [  "Can you explain the admissions procedure?"],
+      "responses": ["The admissions process generally includes steps such as submitting the application, providing necessary documents, undergoing evaluation, and receiving notification of acceptance or rejection. For more detailed instructions, please visit our official admissions website."]
     },
     {
       "tag": "apply admission",
       "patterns": [   
          "How do I apply for admission?"   ],
-      "responses": [ ""]
+      "responses": [ "You can apply for admission through our official admissions website. Simply create an account, fill out the application form, and submit the necessary documents as instructed."]
     },
     {
       "tag": "admission criteria",
       "patterns": [  "What's the admission criteria?" ],
-      "responses": [   "" ]
+      "responses": [   "Our admission criteria consider academic performance, standardized test scores (JEE Main/JEE Advanced), and recommendation letters. Please check our website for detailed criteria." ]
     },
     {
       "tag": "resources",
       "patterns": [  "What resources are available to students in CSE?" ],
-      "responses": [   "" ]
+      "responses": [ "" ]
     },
     {
       "tag": "curriculum",
