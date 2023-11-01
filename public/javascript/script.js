@@ -101,7 +101,6 @@ const chatIcon = document.getElementById('chat-icon'); //get the element with id
             
             });
             
-            document.getElementById('message-input').value = '';
         }
     
     
