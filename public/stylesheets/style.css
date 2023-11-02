@@ -11,6 +11,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+  
 }
 
 span {
@@ -34,7 +35,7 @@ h4{
 }
 nav{
     background-color: rgb(12, 12, 65,1);
-    
+     
 }
 .p-3 {
     padding: 0.5rem!important;
@@ -43,7 +44,7 @@ nav{
 
 
 h3{
-    background-color:  rgb(12, 12, 65,1);
+    background-color:  rgb(12, 12, 65);
     color: #ddd;
     font-size: 1.8rem;
     text-align: center;
@@ -59,8 +60,10 @@ h3{
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-   width: 30%;
+   width: 40%;
    height: 70vh;
+   margin-right: -50px;
+   
 }
 
 
@@ -119,6 +122,7 @@ h3{
     border-radius: 20px;
     padding: 7px;
     width: 70%;
+    
 
 }
 .responsebutton{
@@ -126,7 +130,11 @@ h3{
     justify-content: center;
     align-items: center;
 }
-
+.image{
+    /* background-color: aqua; */
+    margin-left: 10%;
+    margin-top: 8%;
+}
 /* .question-button:hover {
     background-color: #45a049;
 }  */
@@ -134,4 +142,24 @@ h3{
 
 /* .fluid-container{
     background-color: cadetblue !important;
+} */
+/* ---------media query------------------- */
+/* @media (min-width:1400px) and (max-width:1440px) {
+    .chatbot{
+        bottom: 20px;
+        height: 80vh;
+    }
+    
+    
+}
+@media (min-width:700px) and (max-width:768px) {
+    .chatbot{
+        bottom: 20px;
+        height: 80vh;
+    }
+    .question-button{
+        height: 55px;
+    }
+    
+    
 } */

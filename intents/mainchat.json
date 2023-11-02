@@ -72,11 +72,11 @@
     {
       "tag": "curriculum",
       "patterns": [  "Can you provide information about the CSE curriculum?" ],
-      "responses": [   "" ]
+      "responses": [   "The curriculum for a Computer Science and Engineering (CSE) program can vary from one university or college to another, and it may also depend on the specific degree level (e.g., undergraduate, graduate) and the focus areas within CSE. " ]
     },
     {
       "tag": "carrer prospects",
-      "patterns": [  "What are the career prospects for computer science graduates from your college" ],
+      "patterns": [  "What are the career prospects for computer science graduates from your college?" ],
       "responses": [   "" ]
     },
     {
